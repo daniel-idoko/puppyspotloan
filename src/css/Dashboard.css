@@ -1,0 +1,138 @@
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    box-sizing: initial;
+    height: 0;
+    overflow: visible;
+}
+
+.linkWidthAfter {
+    color: #d1a23c;
+    opacity: 1;
+    border-radius: 15px 0 0 15px;
+    /* backgroundColor: #d1a23c; */
+    font-size: 14px;
+    letter-spacing: .35px;
+    padding: 8px 20px;
+    font-weight: 900;
+    border-left: 4px solid transparent;
+    display: flex;
+    align-items: center;
+    transition: opacity 1.2s;
+    margin-bottom: 0;
+    margin-left: 16px;
+    text-decoration: none;
+}
+.linkWidthAfter::after{
+    right: 0 !important;
+    content: "";
+    width: 12px;
+    height: 7.42px;
+    mask-image: url(../../public/imgs/nav-icons/sue.svg);
+    display: block;
+    margin-left: auto;
+    transform: rotate(180deg);
+    transition: all .5s ease;
+    background: #111;
+    opacity: 1;
+    color: #111;
+    position: relative;
+}
+
+
+.linkWidthAfter2 {
+    color: #d1a23c;
+    opacity: 1;
+    border-radius: 15px 0 0 15px;
+    /* backgroundColor: #d1a23c; */
+    font-size: 14px;
+    letter-spacing: .35px;
+    padding: 8px 20px;
+    font-weight: 900;
+    border-left: 4px solid transparent;
+    display: flex;
+    align-items: center;
+    transition: opacity 1.2s;
+    margin-bottom: 0;
+    margin-left: 16px;
+    text-decoration: none;
+}
+.linkWidthAfter2::after{
+    right: 0 !important;
+    content: "";
+    width: 12px;
+    height: 7.42px;
+    mask-image: url(../../public/imgs/nav-icons/sue.svg);
+    display: block;
+    margin-left: auto;
+    transform: rotate(0deg);
+    transition: all .5s ease;
+    background: #111;
+    opacity: 1;
+    color: #111;
+    position: relative;
+}
+
+
+
+.dropdownMenu {
+    position: relative;
+    padding: unset !important;
+    float: unset;
+    transform: unset !important;
+    top: unset !important;
+    left: unset !important;
+    will-change: unset !important;
+    background-color: unset !important;
+    border: none !important;
+    z-index: 1000;
+    display: none;
+    min-width: 10rem;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-clip: padding-box;
+    border-radius: 0.25rem;
+}
+.show_second {
+    display: block !important;
+}
+
+
+
+.linkWidthAfterActive {
+    color: #d1a23c;
+    opacity: 1;
+    border-radius: 15px 0 0 15px;
+    /* backgroundColor: #d1a23c; */
+    font-size: 14px;
+    letter-spacing: .35px;
+    padding: 8px 20px;
+    font-weight: 900;
+    border-left: 4px solid transparent;
+    display: flex;
+    align-items: center;
+    transition: opacity 1.2s;
+    margin-bottom: 0;
+    margin-left: 16px;
+    text-decoration: none;
+}
+.linkWidthAfterActive::after{
+    right: 0 !important;
+    content: "";
+    width: 12px;
+    height: 7.42px;
+    mask-image: url(../../public/imgs/nav-icons/sue.svg);
+    display: block;
+    margin-left: auto;
+    transform: rotate(180deg);
+    transition: all .5s ease;
+    background: #111;
+    opacity: 1;
+    color: #111;
+    position: relative;
+}
