@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import LoadApplicationContainer from '../containers/LoadApplication'
-import Nav from '../components/nav/Nav';
 
 const LoadApplication: React.FC= () => {
 

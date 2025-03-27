@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState, useContext } from 'react'
-import Footer from '../components/footer/Footer';
 import useStyles from '../styles/load_application';
 import { styled } from '@mui/system'
 import FieldSet1 from '../components/application_form/FieldSet1';
